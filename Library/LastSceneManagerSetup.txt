@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scene/YouWin.unity
+- path: Assets/Scene/Level/lvl5.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

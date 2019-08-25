@@ -13,7 +13,14 @@ ScriptsOnlyBuild:
     - YouWin
     - kameraBewegung
     Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
+    - UnityEditor.Tilemaps.GridPaintPaletteClipboard
+    - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
+    - UnityEditor.Tilemaps.PaintableSceneViewGrid
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     UnityEditor.Graphs.dll:
@@ -24,6 +31,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -33,6 +41,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
+    com.unity.multiplayer-hlapi.Runtime.dll:
+    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/Scene/GameOver.unity:
     - Class: 1
@@ -1583,4 +1593,4 @@ ScriptsOnlyBuild:
   - Assets/Scene/Level/lvl10.unity
   - Assets/Scene/YouWin.unity
   - Assets/Scene/GameOver.unity
-  playerPath: D:/Kreativ/GitHubProjekte/Pixel-Dungeon/bin/Test Build.exe
+  playerPath: D:/Kreativ/GitHubProjekte/Pixel-Dungeon/Pixel-Dungeon/bin/Pixel-Dungeon.exe
